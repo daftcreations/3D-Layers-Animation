@@ -1,0 +1,64 @@
+body{
+    background-color: #5A97FF;
+    margin: 0px;
+    padding: 0px;
+}
+#main img{
+    width: 500px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#bottomLayer img{
+    animation:anim1 2s ease-in-out infinite;
+}
+#middleLayer img{
+    top:47%;
+    animation: anim2 2s ease-in-out infinite;
+}
+#topLayer img{
+    top:44%;
+    animation: anim3 2s ease-in-out infinite;
+}
+@keyframes anim1{
+    0%{
+        top:50%;
+    }
+    50%{
+        top:43%;
+    }
+    100%{
+        top:50%;
+    }
+}
+@keyframes anim2{
+    0%{
+        top:47%;
+    }
+    55%{
+        top:40%;
+    }
+    100%{
+        top:47%;
+    }
+}
+
+@keyframes anim3{
+    0%{
+        top:44%;
+    }
+    60%{
+        top:37%;
+    }
+    100%{
+        top:44%;
+    }
+}
+
+
+
+
+
+
+
